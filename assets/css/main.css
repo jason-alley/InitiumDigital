@@ -1,0 +1,29 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+body {
+    --main-font-color: #000000;
+    --main-font-family: 'Arimo', sans-serif;
+    --main-font-size: 16px;
+    --main-font-weight: 400;
+    --main-line-height: 1.5;
+    --main-letter-spacing: normal;
+    --main-text-transform: none;
+
+    --header-footer-color: #FAFAFA;
+
+
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width:1440px;
+}
